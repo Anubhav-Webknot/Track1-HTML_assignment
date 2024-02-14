@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Fill the details below</h2>
+    <form action="">
+        <fieldset>    
+        <div class="name">
+            <br>
+            <label for="name">Name - </label>
+            <input type="text" placeholder="Enter your name" required> <br>
+        </div>
+        
+        <div class="age">
+            <br>
+            <label for="age">Age - </label>
+            <input type="number" placeholder="Enter your age"required > <br>
+            <br>
+        </div>
+        
+        <div class="email">
+            <label for="email">email - </label>
+             <input type="mail" placeholder="Enter your mail" required> <br>
+             <br>
+        </div>
+        
+        <div class="password">
+            <label for="password">Password - </label>
+            <input type="password" id="password" name="password" required><br>
+            <br>
+        </div>
+        
+        
+        <div>
+            <label for="radio">Experience you have - </label>
+            <label>
+                <input type="radio" name="experience" value="fresher" required> Fresher
+            </label>
+            <label>
+                <input type="radio" name="experience" value="intern" required> Intern
+            </label>
+            <label>
+                <input type="radio" name="experience" value="2years" required> 2+ years
+            </label>
+            <label>
+                <input type="radio" name="experience" value="5years" required> 5+ years
+            </label>
+            <br>
+            <br>
+        </div>
+    
+
+        <div>
+            <label for="checkbox">Interested in - </label>
+            <label>
+                <input type="checkbox" name="interests" value="sports"> Sports
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="music"> Music
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="movies"> Movies
+            </label>
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="USA">India</option>
+                <option value="USA">United States</option>
+                <option value="UK">United Kingdom</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <br>
+            <br>
+        </div>
+        <div>
+            <button type="submit">Submit</button><br><br>
+            <button type="reset">Reset</button>
+            <br>
+            <br>
+        </div>
+        </fieldset>
+    </form>
+   
+    
+</body>
+</html>
